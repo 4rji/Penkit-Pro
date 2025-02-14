@@ -33,6 +33,34 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <div id="loading">
+    <div class="loading-text">Loading...</div>
+    <div class="loading-percentage" id="percentage">0%</div>
+  </div>
+
+  <script>
+    let progress = 0;
+    const loadingElement = document.getElementById('loading');
+    const percentageElement = document.getElementById('percentage');
+
+    const interval = setInterval(() => {
+      if (progress < 100) {
+        progress += 10;
+        percentageElement.textContent = `${progress}%`;
+      } else {
+        clearInterval(interval);
+      }
+    }, 100);
+
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        loadingElement.style.opacity = '0';
+        loadingElement.style.transition = 'opacity 0.5s ease';
+        setTimeout(() => loadingElement.remove(), 500);
+      }, 1000);
+    });
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
