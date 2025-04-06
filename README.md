@@ -42,15 +42,15 @@ samples, guidance on mobile development, and a full API reference.
 
 # Flutter Project Setup (macOS)
 
-## Requisitos previos
+## Prerequisites
 
-- Flutter instalado  
-- Xcode instalado  
-- Proyecto ya clonado localmente  
+- Flutter installed
+- Xcode installed
+- Project already cloned locally
 
-## Pasos para ejecutar el proyecto
+## Steps to run the project
 
-1. Entrar al directorio del proyecto:
+1. Enter the project directory:
 ```bash
 cd Penkit-Pro
 ```
