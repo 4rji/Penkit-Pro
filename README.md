@@ -1,11 +1,15 @@
+<img width="740" alt="Image" src="https://github.com/user-attachments/assets/00816707-be5e-4e36-98bd-7201827b3f86" />
+
+
+
 # Penkit Pro
 
 
 I created this web app in Flutter to have my information available across any platform: Windows, Linux, macOS, and the web. I'm planning to create pages and tool tours to easily access my scripts and commands at any time.
 
-I also have a faster CLI version called [**Toda**](<https://github.com/4rji/Todo>), available on GitHub.
+I also have a faster CLI version called [**Todo**](<https://github.com/4rji/Todo>), available on GitHub.
 
-While I'm constantly improving this web version, it's more time-consuming to maintain, so **Toda** will have more up-to-date information.
+While I'm constantly improving this web version, it's more time-consuming to maintain, so **Todo** will have more up-to-date information.
 
 
 ## Description
@@ -106,8 +110,7 @@ The built files will be available in the `build/web` directory.
 - [Flutter documentation](https://docs.flutter.dev/)
 
 ## Author
-
-[havitoporto](https://github.com/havitoporto)
+[havi](https://github.com/4rji)
 
 ## Acknowledgments
 
